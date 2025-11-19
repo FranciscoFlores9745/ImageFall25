@@ -9,11 +9,16 @@
 
       <a-assets>
 
-       <a-asset-item id="myModel" src="assets/model.dae"></a-asset-item>
+       <a-asset-item id="myModel" src="assets/model.dae.obj"></a-asset-item>
+       <a-asset-item id="myModel2" src="assets/model.dae (1).obj"></a-asset-item>
+       <img id="texture1" src="_136.jpg"></img>
+       <img id="texture2" src="Metal_Corrogated.jpg"></img>
+       <img id="texture3" src="w11.jpg"></img>
 
       </a-assets>
 
-       <a-collada-model src="#myModel"  position="-2 0.5 -3" scale=".0025 .0025 .0025" color="#0000FF "></a-collada-model>
+       <a-obj-model src="assets/model.dae.obj"   position="0 .5 -4" scale=".025 .025 .025"  ></a-obj-model>
+       <a-obj-model src="assets/model.dae (1).obj"  position="4 .5 -4" scale=".01 .01 .01"  ></a-obj-model>
 
 
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
